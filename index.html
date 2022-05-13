@@ -2,8 +2,8 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=\, initial-scae=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- OG Tags global início -->
   <meta property="og:site" content="https://icarros-gama-douglas.netlify.app/" />
@@ -20,7 +20,7 @@
   
   <!-- Tags Google início -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Falando sobre desenvolvimento de sofwares" />
+  <meta name="description" content="Falando sobre desenvolvimento de sofwares desenvolvimento, html, css, javascript, ICarros Academy" />
   <meta name="keywords" content="desenvolvimento, html, css, javascript, ICarros Academy">
   <meta name="copyright" content="Desenvolvido por ICarros Academy" />
   <!-- Tags Google fim -->
@@ -54,8 +54,9 @@
       <img src="img/icarros-logo.png" alt="Logo Icarros - Projeto HTML e CSS">
     </a>
     <nav id="desktop-main">
-      <a href="#test">Link a</a>
-      <a href="#testb">Link b</a>
+      <a href="#html">Html</a>
+      <a href="#css">CSS</a>
+      <a href="#js">Javascript</a>
     </nav>
     <nav id="mobile-main">
       <div id="menuToggle">
@@ -65,9 +66,9 @@
         <span></span>
 
         <ul id="mobileMainContent">
-          <a href="#linka">Link a</a>
-          <a href="#linka">Link b</a>
-          <a href="#linka">Link c</a>
+          <a href="#html">Html</a>
+          <a href="#css">CSS</a>
+          <a href="#js">Javascript</a>
         </ul>
 
       </div>
@@ -75,42 +76,56 @@
   </header>
 
   <main>
-   <section id="html" class="section-default">
-     <h2>Html</h2>
-     <article>
-        HTML - Hiper-Text Markup Language
-        <button onclick="clickme()">Clique aqui para ver mais</button>
-     </article>
+   <section id="html" class="section-default center-content orange-bg--section">
+     <div>
+      <h2>Html</h2>
+      <article>
+         HTML - Hiper-Text Markup Language
+         <button onclick="clickme()">Clique aqui para ver mais</button>
+      </article>
+     </div>
    </section>
-   <section id="css" class="section-default">
-      <h2>CSS</h2>
-      <article>
-        CSS - Cascade Style Sheet
-       <button onclick="clickme()">Clique aqui para ver mais</button>
-      </article>
+   <section id="css" class="section-default center-content blue-bg--section">
+      <div>
+        <h2>CSS</h2>
+        <article>
+          CSS - Cascade Style Sheet
+         <button onclick="clickme()">Clique aqui para ver mais</button>
+        </article>
+      </div>
     </section>
-    <section id="js" class="section-default">
-      <h2>JavaScript</h2>
-      <article>
-        JavaScript - ECMASCRIPT
-       <button onclick="clickme()">Clique aqui para ver mais</button>
-      </article>
+    <section id="js" class="section-default center-content orange-bg--section">
+      <div>
+        <h2>JavaScript</h2>
+        <article>
+          JavaScript - ECMASCRIPT
+        <button onclick="clickme()">Clique aqui para ver mais</button>
+        </article>
+      </div>
     </section>   
   </main>
+
+  <div class="floating-button">
+    <a href="#top">
+      Top
+    </a>
+  </div>
   
   <footer>
-    <div>
-      <a href="#html">HTML</a>
-      <a href="#css">CSS</a>
-      <a href="#js">Javascript</a>
-      <a href="#">Link d</a>
-    </div>
-
-    <div>
-      <a href="#">Link e</a>
-      <a href="#">Link f</a>
-      <a href="#">Link g</a>
-      <a href="#">Link h</a>
+    <div class="link-content">
+      <div class="footer-links">
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#js">Javascript</a>
+        <a href="#">Link d</a>
+      </div>
+  
+      <div class="footer-links">
+        <a href="#">Link e</a>
+        <a href="#">Link f</a>
+        <a href="#">Link g</a>
+        <a href="#">Link h</a>
+      </div>
     </div>
     <p>Todos os direitos reservados</p>
   </footer>
